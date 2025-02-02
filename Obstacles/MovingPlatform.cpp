@@ -13,8 +13,8 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-    MyInt = 1;
-    APlusB = InputA + InputB;
+    
+    MyX = MyVector.X;
 }
 
 // Called every frame

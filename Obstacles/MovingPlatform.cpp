@@ -14,6 +14,7 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
     MyInt = 1;
+    APlusB = InputA + InputB;
 }
 
 // Called every frame
